@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shehan-Portfolio </title>
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--- Swiper CSS Link --->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./portfolio.css">
+</head>
+<body>
+    <!---------------------- Design the Header --------------------->
+    <header class="header">
+        <a href="#" class="logo"> Portfolio </a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- Dark Mode icon -->
+        <div class="bx bx-moon" id="darkMode"></div>
+
+        <!-- Menu Icon -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--------------- Design the Section of Home ------------->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am </h3>
+            <h1 id="myName">Kaushika Shehan</h1>
+            <p> welcome to my website! <br>I'm a Software Engineering student at Sri Lanka Technological Research University (SLTC).</p>
+
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                </div>
+
+                <a href="https://drive.google.com/file/d/1q3bFPL5pgmSM5naWgrOwiUfkycFu-lta/view?usp=share_link" target="_blank" class="btn">Download CV</a>
+        </div>
+
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bxs-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:1;"> 
+                    <i class='bx bx-code' ></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bxs-hand-right'></i>
+                    <h3>Team Player</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <!--- Add Image to the Home page -->
+        <div class="home-img">
+            <img src="img/home.png" alt="" id="home1">
+            <img src="img/home2-removebg-preview.png" alt="" id="home-under">
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about2.png" alt=""> <!-- Add the Image to the About Section -->
+
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hello... <br>I'm Kaushika Shehan Winodahewa</h3>
+            <p>I'm a Software Engineering student at Sri Lanka Technological Reasearch University. 
+                I'm always eager to learn and grow, and I love taking on new challenges. <br>
+                One of the things I'm most proud of is my experience as a team leader. 
+                I've had the privilege of handling many projects over the years, and I've learned a great deal about communication, organization, and leadership. 
+                I believe that a good leader should always lead by example, and I strive to be a positive influence on those around me. <br>               
+                In my free time, I enjoy playing cricket with my friends, playing guitar, and watching movies with a cup of tea. 
+                These hobbies help me relax and unwind, and I find that they inspire me to be more creative and productive. <br>
+                As a software engineering student, I'm always looking for ways to apply what I've learned and to real-world problems. 
+                I'm passionate about using technology to make a positive impact on people's lives, and I believe that software engineering is one of the most exciting fields to be in right now.    
+                Thank you for visiting my website and learning a little more about me. </p>
+            <a href="#1" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="services" id="services">
+    <div class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-block'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea itaque aliquam, 
+                   maxime illo minus nisi iste! Perspiciatis aliquam explicabo facilis unde sit eveniet</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-group' ></i>
+                <h3>Team Player</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea itaque aliquam, 
+                   maxime illo minus nisi iste! Perspiciatis aliquam explicabo facilis unde sit eveniet</p>
+                   <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-paint'></i>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea itaque aliquam, 
+                   maxime illo minus nisi iste! Perspiciatis aliquam explicabo facilis unde sit eveniet</p>
+                   <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="img/port1.jpg" alt=""> <!-- Projects photos -->
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, officia doloribus?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/port2.jpg" alt=""> <!-- Projects photos -->
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, officia doloribus?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/port3.jpg" alt=""> <!-- Projects photos -->
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, officia doloribus?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="projectsImg/Note.JPG" alt="">
+                        <h3>Kavindu</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Laboriosam neque provident earum vitae repellendus necessitatibus, 
+                            iure natus, voluptatibus commodi aperiam saepe! Beatae velit mollitia 
+                            assumenda esse. Laboriosam deleniti quas quibusdam ullam suscipit odit 
+                            animi neque, porro accusamus qui laborum quisquam ipsam quasi sint incidunt 
+                            dolores deserunt voluptatem dicta. Sunt autem quo nulla excepturi aperiam distinctio 
+                            placeat quas maxime blanditiis quasi.</p>
+                    </div>
+                    
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="projectsImg/Note.JPG" alt="">
+                        <h3>Kavindu</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Laboriosam neque provident earum vitae repellendus necessitatibus, 
+                            iure natus, voluptatibus commodi aperiam saepe! Beatae velit mollitia 
+                            assumenda esse. Laboriosam deleniti quas quibusdam ullam suscipit odit 
+                            animi neque, porro accusamus qui laborum quisquam ipsam quasi sint incidunt 
+                            dolores deserunt voluptatem dicta. Sunt autem quo nulla excepturi aperiam distinctio 
+                            placeat quas maxime blanditiis quasi.</p>
+                    </div>
+                    
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="projectsImg/Note.JPG" alt="">
+                        <h3>Kavindu</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Laboriosam neque provident earum vitae repellendus necessitatibus, 
+                            iure natus, voluptatibus commodi aperiam saepe! Beatae velit mollitia 
+                            assumenda esse. Laboriosam deleniti quas quibusdam ullam suscipit odit 
+                            animi neque, porro accusamus qui laborum quisquam ipsam quasi sint incidunt 
+                            dolores deserunt voluptatem dicta. Sunt autem quo nulla excepturi aperiam distinctio 
+                            placeat quas maxime blanditiis quasi.</p>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+
+        </form>
+    </section>
+
+    <!-- footer section-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by K.S.W | All Right Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-chevrons-up'></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Swiper related JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Script Code -->
+    <script src="./portfolio.js"></script>
+
+ 
+</body>
+</html> 
