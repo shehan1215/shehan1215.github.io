@@ -795,7 +795,7 @@ span{
 
 @keyframes changeColors1{
     0% { color: rgba(14, 76, 5, 0.904); }
-    50% { color: rgb(252, 131, 45); }
+    50% { color: rgb(216, 109, 33); }
     75% { color: rgba(249, 75, 249, 0.886); }
     100% { color: rgba(58, 199, 247, 0.847); }
 }
