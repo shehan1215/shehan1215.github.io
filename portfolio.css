@@ -274,6 +274,7 @@ section{
     height: 100%;
     width: auto;
     pointer-events: none;
+    
 }
 
 #home-under{
@@ -297,6 +298,7 @@ span{
 }
 .about-img img{
     width: 40vw;
+    pointer-events: none;
 }
 .heading{
     font-size: 4.5rem;
@@ -314,21 +316,21 @@ span{
     margin: 2rem 0 3rem;
 }
 
-.services{
+.skills{
     min-height: auto;   
     padding-bottom: 7rem;
 }
-.services h2{
+.skills h2{
     margin-bottom: 5rem;
 }
-.services .services-container{
+.skills .skills-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
-.services-container .services-box{
+.skills-container .skills-box{
     flex: 1 1 30rem;
     background: var(--bg-color);
     padding: 3rem 2rem 4rem;
@@ -340,22 +342,22 @@ span{
     transition: .5s ease;
 }
 
-.services-container .services-box:hover{
+.skills-container .skills-box:hover{
     box-shadow: 0 .1rem 2rem var(--shadow-color);
     transform: scale(1.02);
 }
-.services-box i{
+.skills-box i{
     font-size: 7rem;
     color: var(--main-color);
 }
-.services-box h3{
+.skills-box h3{
     font-size: 2.6rem;
     transition: .5s ease;
 }
-.services-box:hover h3{
+.skills-box:hover h3{
     color: var(--main-color);
 }
-.services-box p{
+.skills-box p{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
@@ -605,7 +607,7 @@ span{
      .home-img img{
         display: none;
      }
-     .services,.portfolio{
+     .skills,.portfolio{
         padding-bottom: 7rem;
      }
      .contact{
@@ -734,7 +736,7 @@ span{
         width: 70vw;
         margin-top: -2rem;
     }
-    .services h2,
+    .skills h2,
     .portfolio h2{
         margin-bottom: 3rem;
     }

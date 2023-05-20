@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="./portfolio.css">
 </head>
 <body>
+
     <!---------------------- Design the Header --------------------->
     <header class="header">
         <a href="#" class="logo"> Portfolio </a>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#services">Skills</a>
+            <a href="#skills">Skills</a>
             <a href="#portfolio">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -35,13 +36,13 @@
         <div class="home-content">
             <h3>Hello, I am </h3>
             <h1 id="myName">Kaushika Shehan</h1>
-            <p> welcome to my website! <br>I'm a Software Engineering student at Sri Lanka Technological Research University (SLTC).</p>
+            <p> Welcome to my website! <br>I'm a Software Engineering student at Sri Lanka Technological Research University (SLTC).</p>
 
                 <div class="social-media">
                     <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
                     <a href="#"><i class='bx bxl-instagram'></i></a>
-                    <a href="#"><i class='bx bxl-linkedin'></i></a>
-                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bq2bA4hHCQ1mvZjt1jqPzgw%3D%3D" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/shehan1215" target="_blank"><i class='bx bxl-github'></i></a>
                 </div>
 
                 <a href="https://drive.google.com/file/d/1q3bFPL5pgmSM5naWgrOwiUfkycFu-lta/view?usp=share_link" target="_blank" class="btn">Download CV</a>
@@ -102,37 +103,41 @@
         </div>
     </section>
 
-    <!-- Services section -->
-    <section class="services" id="services">
-    <div class="services" id="services">
+    <!-- Skill section -->
+    <section class="skills" id="skills">
+    <div class="skills" id="skills">
         <h2 class="heading">My <span>Skills</span></h2>
-
-        <div class="services-container">
-            <div class="services-box">
-                <i class='bx bxs-group'></i>
-                <h3>leadership</h3>
-                <p>I have taken on leadership roles both during my university period and in my school days as part
-                     of the prefect board <span id="dots" style="font-size: 5em;">...</span><span id="more"> I have led several projects and group works during my time at university 
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-edit-alt'></i>
+                <h3>Soft Skills</h3>
+                <p>Teamwork, Problem-solving, Time management, Fast Learner, Decision-making, Organizational, Stress management, 
+                    Adaptability, Conflict management, Leadership and Creativity. Therefore, <br><span id="dots" style="font-size: 5em;">...
+                    </span><span id="more"> I have taken on leadership roles both during my university
+                     period and in my school days as part of the prefect board.I have led several projects and group works during my time at university 
                         Additionally, my involvement in the prefect board indicated my dedication to serving and contributing to my
                          school community. These experiences and my commitment to taking on responsibilities and making
                           a positive impact</span></p>
-                   <button onclick="myFunction()" id="myBtn" class="btn" style="cursor: pointer;">Read more</button>
+                   <button onclick="readMore()" id="myBtn" class="btn" style="cursor: pointer;">Read more</button>
             </div>
 
-            <div class="services-box">
-                <i class='bx bx-trending-up'></i>
-                <h3>Fast Learner</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea itaque aliquam, 
-                   maxime illo minus nisi iste! Perspiciatis aliquam explicabo facilis unde sit eveniet</p>
-                   <a href="#" class="btn">Read More</a>
-            </div>
-
-            <div class="services-box">
-                <i class='bx bx-sitemap'></i>
-                <h3>Problem Solving</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea itaque aliquam, 
-                   maxime illo minus nisi iste! Perspiciatis aliquam explicabo facilis unde sit eveniet</p>
-                   <a href="#" class="btn">Read More</a>
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Technical Skills and Tools</h3><br>
+                <ul style="list-style: none; font-size: 15px;">
+                    <h3>Technical</h3>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Sass</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <h3>Tools</h3>
+                    <li>VSCode</li>
+                    <li>Intellij IDEA</li>
+                    <li>MySql Workbench</li>
+                    <li>Figma</li></span>
+                </ul> 
             </div>
         </div>
     </div>
