@@ -14,7 +14,7 @@
 :root{
     --bg-color: #fdfdfd;
     --text-color: #333;
-    --main-color: #673ab0;
+    --main-color: #077ab0;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0,0,0,.2);
 }
@@ -224,7 +224,7 @@ section{
     align-items: center;
     flex-direction: column;
     color: var(--main-color);
-    transform: rotate(calc(360deg / 3 * var(--i)));
+    transform: rotate(calc(360deg / 4 * var(--i)));
     transform-origin: 384px;
     background: var(--bg-color);
     padding: 13px 0 ;
@@ -240,7 +240,7 @@ section{
 } 
 
 .home .profession i{
-    font-size: 3.8rem;
+    font-size: 2.8rem;
 }
 .home .profession h3{
     font-size: 3.2rem;
@@ -263,10 +263,10 @@ section{
     border-top: 384px solid var(--main-color);
     border-right: 384px solid var(--main-color);
     border-bottom: 384px solid var(--main-color);
-    border-left: 384px solid transparent;
+    border-left: 584px solid transparent;
 }
 
-#home1{
+.home-img .home1{
     position: absolute;
     bottom: 0;
     top: 20px;
@@ -274,8 +274,6 @@ section{
     height: 100%;
     width: auto;
     pointer-events: none;
-    opacity: .7;
-
 }
 
 #home-under{
