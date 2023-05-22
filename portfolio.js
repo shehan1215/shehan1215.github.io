@@ -94,9 +94,9 @@ ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { ori
 
 function contactForm(){
   var fields = {
-     fullName: document.getElementById("fullName").value,
+    //  fullName: document.getElementById("fullName").value,
      email: document.getElementById("email").value,
-     companyName: document.getElementById("cName").value,
+    //  companyName: document.getElementById("cName").value,
      subject: document.getElementById("subject").value,
      message: document.getElementById("message").value,
   };
@@ -105,9 +105,9 @@ const tempId = "template_norwxom";
 
 emailjs.send(servcId,tempId,fields).then(
   res =>{
-        document.getElementById("fullName").value = "";
+        // document.getElementById("fullName").value = "";
         document.getElementById("email").value = "";
-        document.getElementById("cName").value = "";
+        // document.getElementById("cName").value = "";
         document.getElementById("subject").value = "";
         document.getElementById("message").value = "";
         console.log(res);
