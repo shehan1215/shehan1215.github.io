@@ -96,7 +96,7 @@ function contactForm(){
   var fields = {
      fullName: document.getElementById("name").value,
      email: document.getElementById("email").value,
-     companyname: document.getElementById("cName").value,
+     companyName: document.getElementById("cName").value,
      subject: document.getElementById("subject").value,
      message: document.getElementById("message").value,
   };
