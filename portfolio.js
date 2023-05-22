@@ -77,6 +77,8 @@ darkModeIcon.onclick = () => {
     document.body.classList.toggle('dark-mode');
 };
 
+//................ Scroll .......................
+
 ScrollReveal({ 
     reset: true, 
     distance: '80px',
