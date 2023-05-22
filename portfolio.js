@@ -96,14 +96,14 @@ function contactForm(){
   var fields = {
      fullName: document.getElementById("name").value,
      email: document.getElementById("email").value,
-     companyName: document.getElementById("cName").value,
+     companyname: document.getElementById("cName").value,
      subject: document.getElementById("subject").value,
      message: document.getElementById("message").value,
   };
 const servcId = "service_njoneus";
 const tempId = "template_norwxom";
 
-emailjs.send(servcId,tempId,fields).then9(
+emailjs.send(servcId,tempId,fields).then(
   res =>{
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
