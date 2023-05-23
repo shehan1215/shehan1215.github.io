@@ -363,33 +363,33 @@ span{
 }
 
 
-.portfolio{
+.project{
     padding-bottom: 10rem;
 }
-.portfolio h2{
+.project h2{
     margin-bottom: 4rem;
 }
-.portfolio .portfolio-container{
+.project .project-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
-.portfolio-container .portfolio-box{
+.project-container .project-box{
     position: relative;
     display: flex;
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgb(48, 159, 176);
     overflow: hidden;
 }
-.portfolio-box img{
+.project-box img{
     width: 100%;
     transition: .5s ease;
 }
-.portfolio-box:hover img{
+.project-box:hover img{
     transform: scale(1.1);
 }
-.portfolio-box .portfolio-layer{
+.project-box .project-layer{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -406,17 +406,17 @@ span{
     opacity: 0;
     transition: .5s ease;
 }
-.portfolio-box:hover .portfolio-layer{
+.project-box:hover .project-layer{
     opacity: 1;
 }
-.portfolio-layer h4{
+.project-layer h4{
     font-size: 3rem
 }
-.portfolio-layer p{
+.project-layer p{
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
 }
-.portfolio-layer a{
+.project-layer a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -425,7 +425,7 @@ span{
     background: var(--white-color);
     border-radius: 50%;
 }
-.portfolio-layer a i{
+.project-layer a i{
     font-size: 2rem;
     color: #333;
 }
@@ -445,7 +445,7 @@ span{
     padding: 5rem;
 }
 .testimonial-wrapper .testimonial-box{
-    padding: .2rem;  /*================================================>>>>>  Last check */
+    padding: .2rem;  
     overflow: hidden;
     border-radius: 2rem;
 }
@@ -461,10 +461,9 @@ span{
     border-bottom: .8rem solid var(--main-color);
 }
 .testimonial-slide img{
-    width: 14rem;
-    height: 14rem;
-    object-fit: cover;
-    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;  
     border: .5rem solid var(--bg-color);
     outline: .5rem solid var(--main-color);
     
@@ -501,7 +500,6 @@ span{
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .contact form .input-box input,
 .contact form textarea{
     width: 100%;
@@ -609,7 +607,7 @@ span{
      .home-img img{
         display: none;
      }
-     .skills,.portfolio{
+     .skills,.project{
         padding-bottom: 7rem;
      }
      .contact{
@@ -740,10 +738,10 @@ span{
         margin-top: -2rem;
     }
     .skills h2,
-    .portfolio h2{
+    .project h2{
         margin-bottom: 3rem;
     }
-    .portfolio .portfolio-container{
+    .project .project-container{
         grid-template-columns: repeat(2, 1fr);
     }
     .testimonial-container .testimonial-wrapper{
@@ -759,7 +757,7 @@ span{
 }
 
 @media(max-width: 617px){
-    .portfolio .portfolio-container{
+    .project .project-container{
         grid-template-columns: 1fr;
     }
 }
