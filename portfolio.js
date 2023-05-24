@@ -92,47 +92,47 @@ ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { ori
 
 //----------------- Contact ----------------------
 
-// function contactForm(){
-//   var fields = {
-//     //  fullName: document.getElementById("fullName").value,
-//      email: document.getElementById("email").value,
-//     //  companyName: document.getElementById("cName").value,
-//      subject: document.getElementById("subject").value,
-//      message: document.getElementById("message").value,
-//   };
-// const servcId = "service_njoneus";
-// const tempId = "template_norwxom";
+function contactForm(){
+  var fields = {
+    //  fullName: document.getElementById("fullName").value,
+     email: document.getElementById("email").value,
+    //  companyName: document.getElementById("cName").value,
+     subject: document.getElementById("subject").value,
+     message: document.getElementById("message").value,
+  };
+const servcId = "service_njoneus";
+const tempId = "template_norwxom";
 
-// emailjs.send(servcId,tempId,fields).then(
-//   res =>{
-//         // document.getElementById("fullName").value = "";
-//         document.getElementById("email").value = "";
-//         // document.getElementById("cName").value = "";
-//         document.getElementById("subject").value = "";
-//         document.getElementById("message").value = "";
-//         console.log(res);
-//         alert("Your Message Sent Successfully, Thank You!")
-//       })
-//       .catch((err) => console.log(err));
-// }
+emailjs.send(servcId,tempId,fields).then(
+  res =>{
+        // document.getElementById("fullName").value = "";
+        document.getElementById("email").value = "";
+        // document.getElementById("cName").value = "";
+        document.getElementById("subject").value = "";
+        document.getElementById("message").value = "";
+        console.log(res);
+        alert("Your Message Sent Successfully, Thank You!")
+      })
+      .catch((err) => console.log(err));
+}
 
-const btn = document.getElementById('btnContact');
+// const btn = document.getElementById('btnContact');
 
-document.getElementById('form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
+// document.getElementById('form')
+//  .addEventListener('submit', function(event) {
+//    event.preventDefault();
 
-   btn.value = 'Sending...';
+//    btn.value = 'Sending...';
 
-   const serviceID = 'service_njoneus';
-   const templateID = 'template_norwxom';
+//    const serviceID = 'service_njoneus';
+//    const templateID = 'template_norwxom';
 
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = 'Send Email';
-      alert('Sent!');
-    }, (err) => {
-      btn.value = 'Send Email';
-      alert(JSON.stringify(err));
-    });
-});
+//    emailjs.sendForm(serviceID, templateID, this)
+//     .then(() => {
+//       btn.value = 'Send Email';
+//       alert('Sent!');
+//     }, (err) => {
+//       btn.value = 'Send Email';
+//       alert(JSON.stringify(err));
+//     });
+// });
