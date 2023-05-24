@@ -90,13 +90,11 @@ ScrollReveal().reveal('.home-img img, .skills-container, .portfolio-box, .testim
 ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
 ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
 
-//----------------- Contact ----------------------
+//----------------- Contact Form ----------------------
 
 function contactForm(){
   var fields = {
-    //  fullName: document.getElementById("fullName").value,
      email: document.getElementById("email").value,
-    //  companyName: document.getElementById("cName").value,
      subject: document.getElementById("subject").value,
      message: document.getElementById("message").value,
   };
@@ -105,9 +103,7 @@ const tempId = "template_norwxom";
 
 emailjs.send(servcId,tempId,fields).then(
   res =>{
-        // document.getElementById("fullName").value = "";
         document.getElementById("email").value = "";
-        // document.getElementById("cName").value = "";
         document.getElementById("subject").value = "";
         document.getElementById("message").value = "";
         console.log(res);
