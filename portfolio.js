@@ -115,24 +115,3 @@ emailjs.send(servcId,tempId,fields).then(
       })
       .catch((err) => console.log(err));
 }
-
-// const btn = document.getElementById('btnContact');
-
-// document.getElementById('form')
-//  .addEventListener('submit', function(event) {
-//    event.preventDefault();
-
-//    btn.value = 'Sending...';
-
-//    const serviceID = 'service_njoneus';
-//    const templateID = 'template_norwxom';
-
-//    emailjs.sendForm(serviceID, templateID, this)
-//     .then(() => {
-//       btn.value = 'Send Email';
-//       alert('Sent!');
-//     }, (err) => {
-//       btn.value = 'Send Email';
-//       alert(JSON.stringify(err));
-//     });
-// });
