@@ -266,6 +266,17 @@ section{
     border-left: 584px solid transparent;
 }
 
+@keyframes changeColors1{
+    0% { color: rgba(14, 76, 5, 0.904); }
+    50% { color: rgb(216, 109, 33); }
+    75% { color: rgba(249, 75, 249, 0.886); }
+    100% { color: rgba(58, 199, 247, 0.847); }
+}
+
+#myName {
+    animation: changeColors1 6s infinite;
+  }
+
 .home-img .home1{
     position: absolute;
     bottom: 0;
@@ -802,13 +813,4 @@ span{
     }
 }
 
-@keyframes changeColors1{
-    0% { color: rgba(14, 76, 5, 0.904); }
-    50% { color: rgb(216, 109, 33); }
-    75% { color: rgba(249, 75, 249, 0.886); }
-    100% { color: rgba(58, 199, 247, 0.847); }
-}
 
-#myName {
-    animation: changeColors1 6s infinite;
-  }
