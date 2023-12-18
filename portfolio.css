@@ -58,11 +58,8 @@ body{
 }
 
 .logo{
-    font-size: 2.5rem;
-    color: var(--main-color);
-    cursor: default;
-    font-weight: bold;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .header.sticky .navbar a{
