@@ -69,6 +69,9 @@ body{
 .header.sticky .navbar a.active{
     color: var(--main-color);
 }
+.header.sticky .navbar a.active1{
+    color: #077ab0;
+}
 
 .navbar a{
     position: relative;
@@ -85,6 +88,15 @@ body{
     width: 100%;
     height: .2rem;
     background: var(--white-color);
+}
+.navbar a.active1::before{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: .2rem;
+    background:#077ab0;
 }
 
 .header.sticky .navbar a::before{
